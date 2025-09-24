@@ -33,6 +33,3 @@ npm run test:smoke
 
 # open the last HTML report
 npm run report
-
- npm run test:smoke
-# open the last HTML report: npm run report
