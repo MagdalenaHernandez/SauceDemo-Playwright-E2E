@@ -22,7 +22,10 @@ npx playwright install --with-deps
 Create a .env
 
 ## 🏃‍➡️ Run
-- # full suite: npm test
-- # open the UI runner: npm run test:ui
-- # smoke only (uses @smoke tag via PW_GREP): npm run test:smoke
-- # open the last HTML report: npm run report
+# full suite
+npm test
+# open the UI runner
+npm run test:ui
+# smoke only (uses @smoke tag via PW_GREP)
+ npm run test:smoke
+# open the last HTML report: npm run report
