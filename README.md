@@ -24,8 +24,15 @@ Create a .env
 ## 🏃‍➡️ Run
 # full suite
 npm test
-# open the UI runner
+
+# UI runner (great for debugging)
 npm run test:ui
+
 # smoke only (uses @smoke tag via PW_GREP)
+npm run test:smoke
+
+# open the last HTML report
+npm run report
+
  npm run test:smoke
 # open the last HTML report: npm run report
