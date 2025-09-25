@@ -1,6 +1,8 @@
 # Sauce Demo • Playwright E2E & Smoke Suite
 
 [![Playwright Tests](https://github.com/MagdalenaHernandez/SauceDemo-Playwright-E2E/actions/workflows/playwright.yml/badge.svg)](https://github.com/MagdalenaHernandez/SauceDemo-Playwright-E2E/actions/workflows/playwright.yml)
+![License](https://img.shields.io/github/license/MagdalenaHernandez/SauceDemo-Playwright-E2E)
+
 
 Playwright tests for https://www.saucedemo.com using a clean Page Object Model. Built to be easy to read, run, and review.
 ---
