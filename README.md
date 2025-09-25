@@ -17,9 +17,9 @@ Playwright tests for https://www.saucedemo.com using a clean Page Object Model. 
 - Screenshots on failure locally; traces & videos on CI failures
 
 ## ⚙️ Setup
-npm i
-npx playwright install --with-deps
-Create a .env (or copy .env.example)
+- npm i
+- npx playwright install --with-deps
+- Create a .env (or copy .env.example)
 
 ## 🏃‍➡️ Run
 - **full suite:** npm test
