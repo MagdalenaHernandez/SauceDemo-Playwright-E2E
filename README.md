@@ -19,17 +19,18 @@ Playwright tests for https://www.saucedemo.com using a clean Page Object Model. 
 ## ⚙️ Setup
 npm i
 npx playwright install --with-deps
-Create a .env
+Create a .env (or copy .env.example)
 
 ## 🏃‍➡️ Run
-# full suite
-npm test
+- **full suite:** npm test
+- **UI runner:** npm run test:ui
+- **smoke only:** npm run test:smoke
+- **open the last HTML report:** npm run report
 
-# UI runner (great for debugging)
-npm run test:ui
+## 🤖 CI (GitHub Actions)
+- Triggers on push to main, on pull requests, and manual runs via Run workflow
+- Secrets: STANDARD_PASSWORD — injected as an env var for tests
+- Artifacts:
+    - Always: playwright-report (HTML report)
+    - On failures: test-results/** (traces, screenshots, videos)
 
-# smoke only (uses @smoke tag via PW_GREP)
-npm run test:smoke
-
-# open the last HTML report
-npm run report
